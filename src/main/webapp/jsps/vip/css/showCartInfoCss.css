@@ -1,0 +1,13 @@
+.buyBookBtns{
+    border: 1px orangered solid;
+    background-color:orangered;
+    color: #fff;
+}
+
+.deleteTocartBtns{
+    border: 1px darkgreen solid;
+    background-color:darkgreen;
+    color: #fff;
+}
+
+

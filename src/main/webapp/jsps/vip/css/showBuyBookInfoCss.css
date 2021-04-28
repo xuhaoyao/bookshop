@@ -1,0 +1,31 @@
+.payMoney{
+    width: 40px;
+    height: 40px;
+}
+.bookInfoTextArea{
+    border:0;
+    height: auto;
+    width: 250px;
+    resize: none;
+}
+#buyBookBtn{
+    width: 150px;
+    height: 30px;
+    border: 1px orangered solid;
+    background-color:orangered;
+    color: #fff;
+    margin-top: 10px;
+}
+#buyBookBackBtn{
+    width: 150px;
+    height: 30px;
+    border: 1px #3083ff solid;
+    background-color:#3487ff;
+    color: #fff;
+    margin-top: 10px;
+}
+
+span{
+    font-size: 24px;
+    color: red;
+}

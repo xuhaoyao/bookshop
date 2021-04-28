@@ -1,0 +1,20 @@
+img{
+    width:150px;
+    height:150px;
+}
+.addToCartBtns{
+    width: 150px;
+    height: 30px;
+    border: 1px orange solid;
+    background-color:orange;
+    color: #fff;
+    margin-top: 10px;
+}
+.buyBookBtns{
+    width: 150px;
+    height: 30px;
+    border: 1px orangered solid;
+    background-color:orangered;
+    color: #fff;
+    margin-top: 10px;
+}

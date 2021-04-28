@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bookshopWeb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bookshopWeb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bookshopWeb-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bookshopWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

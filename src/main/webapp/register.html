@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>表单验证</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/registerCss.css"/>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+<form id="form">
+    <h1 style="color: deeppink">欢迎注册书店会员</h1>
+    <table>
+        <tr>
+            <th>用户名</th>
+            <td>
+                <input type = "text" name = "username" id = "username" class="input"/>
+            </td>
+            <td><span id = "idMsg"></span></td>
+        </tr>
+        <tr>
+            <th>密码</th>
+            <td>
+                <input type = "password" name = "password" id = "password" class="input"/>
+            </td>
+            <td>
+                <span id="passwordMsg"></span>
+            </td>
+        </tr>
+        <tr>
+            <th>确认密码</th>
+            <td>
+                <input type = "password" id = "checkedPwd" class="input"/>
+            </td>
+            <td><span id = "pwdMsg"></span></td>
+        </tr>
+        <tr>
+            <th>邮箱</th>
+            <td>
+                <input type = "text" name = "email" id = "email" class="input"/>
+            </td>
+            <td><span id = "emailMsg"></span></td>
+        </tr>
+        <tr align = center>
+            <td colspan="2">
+                <input type = "button" id = "btn" value="立即注册"/>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
